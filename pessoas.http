@@ -1,0 +1,16 @@
+GET http://localhost:3000/pessoas
+
+###
+
+GET http://localhost:3000/1
+
+###
+
+POST http://localhost:3000/pessoas/
+Content-Type: application/json
+
+{
+    "name": "urubu do pix",
+    "age": 30,
+    "email": "example4@gmail.com"
+}
